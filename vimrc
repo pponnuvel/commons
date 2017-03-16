@@ -1,10 +1,11 @@
 set cursorline
 set expandtab
 set hlsearch
-set nu
+set number
 set shiftwidth=4
 set showcmd
 set showmatch
 set softtabstop=4
 set spell
 set tabstop=4
+syntax enable
