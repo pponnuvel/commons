@@ -1,0 +1,4 @@
+sudo apt install git
+sudo apt install gcc-multilib
+sudo apt install screen
+
