@@ -1,0 +1,16 @@
+[user]
+	email = pponnuvel@gmail.com
+	name = Ponnuvel Palaniyappan
+[credential]
+	helper = cache
+[push]
+	default = simple
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld "$LOCAL" "$REMOTE"
+[core]
+    editor = vi
+
