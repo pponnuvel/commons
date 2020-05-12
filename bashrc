@@ -1,7 +1,6 @@
 stty erase '^?'
 alias ll='ls -l'
 alias vi='vim'
-export P$DIFF=P4DIFF
 
 set -o vi
 
