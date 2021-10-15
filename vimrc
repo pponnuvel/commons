@@ -31,3 +31,5 @@ autocmd BufWritePre *.h %s/\s\+$//e
 autocmd BufWritePre *.py %s/\s\+$//e
 autocmd BufWritePre *.sh %s/\s\+$//e
 autocmd BufWritePre *.go %s/\s\+$//e
+
+autocmd BufWinLeave *.go !gofmt -s -w *.go
